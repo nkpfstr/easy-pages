@@ -9,8 +9,8 @@
   <body>
     <header>
       <nav>
-        {% for item in site.data.navigation %}
-          <a href="{{ item.url }}">{{ item.title }}</a>
+        {% for item in site.data.navigation.primary %}
+          <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
       <hr>
