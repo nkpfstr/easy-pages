@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/theme.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ site.url }}/theme.css">
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   </head>
   <body>
     <header>
       <nav>
         {% for item in site.data.nav.primary %}
-          <a href="{{site.url }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+          <a href="{{ site.url }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
       <hr>
