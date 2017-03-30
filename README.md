@@ -1,2 +1,3 @@
-# pages-demo
-A repo demonstrating how you can create a static site completely through the Github web interface.
+# Github Pages Demo
+
+This repository demonstrates how you can publish a simple static website on Github Pages using only Github's web interface.
