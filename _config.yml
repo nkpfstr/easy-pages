@@ -6,3 +6,4 @@ url: https://nkpfstr.github.io/pages-demo
 # Jekyll plugins
 gems:
   - jemoji
+  - jekyll-seo-tag
