@@ -10,9 +10,10 @@
     <header>
       <nav>
         {% for item in site.data.nav.primary %}
-          <a href="{{ site.url }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+          <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
+      <p>{{ site.url }}</p>
       <hr>
       <h1>Github Pages Demo</h1>
       <h3>A static site experiment</h3>
