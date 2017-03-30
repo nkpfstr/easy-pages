@@ -10,7 +10,7 @@
     <header>
       <nav>
         {% for item in site.data.nav.primary %}
-          <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+          <a href="{{site.url }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
       <p>{{ site.url }}</p>
